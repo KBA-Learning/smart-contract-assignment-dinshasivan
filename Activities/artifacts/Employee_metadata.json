@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "employe",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "department",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "designation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "salary",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "cashier",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eval",
+						"type": "uint256"
+					}
+				],
+				"name": "ethTowei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEmplyeeDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEmployee",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_depatment",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_designation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_salary",
+						"type": "uint16"
+					}
+				],
+				"name": "setEmployeeDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Activities/Employee.sol": "Employee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Activities/Employee.sol": {
+			"keccak256": "0xf1f1d9c420e68957885691d35a340cfa92e6e6e4eeaf38ce68773280e598fe8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28dc669f928dfeab74ffceb9eb56a713e355e1b154e2b66b0c4afbe4f2c8e024",
+				"dweb:/ipfs/Qmaob2QrWYNTyX5vq792cXpANym3qUJsHwoLhJzAC1pn3f"
+			]
+		}
+	},
+	"version": 1
+}
